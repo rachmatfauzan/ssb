@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(90deg,
+            rgba(40, 167, 9, 1) 0%,
+            rgba(40, 167, 9, 1) 25%,
+            transparent 100%,
+            rgb(40, 167, 9) 75%,
+            transparent);
+    -webkit-box-shadow: inset 0 0 6px rgba(40, 167, 69, 0.5);
+}
+
+
+.first {
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3F3;
+}
+
+.klasemen tr td {
+    font-size: 13px;
+}
+
+.hero {
+    background-color: #F3F3F3;
+}
+
+.logo img {
+    width: 150px;
+    height: 70px;
+}
+
+a.nav:hover {
+    color: #28A745 !important;
+}
+
+img.pssi {
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item img {
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.slide .carousel-inner .carousel-item {
+    height: 200px;
+}
+
+.carousel-item {
+    transform: translate(20%, 0);
+    width: 550px;
+    overflow: hidden;
+}
+
+.berita label {
+    width: 500px;
+    font-size: 30px;
+}
+
+img.hot {
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    transform: translate(130px, -60px);
+    z-index: 999;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-body {
+    max-height: 200px;
+    overflow: hidden;
+}
+.table-responsive{
+    overflow: hidden;
+}
+
+/* hubungi.php */
+
+
+@media screen and (max-width:900px) {
+    .carousel-item {
+        transform: none;
+    }
+    .navbar-nav span,
+    .pssi {
+        display: none;
+    }
+    .row .table-responsive{
+        overflow: auto;
+        font-size: 12px;
+    }
+    .luar {
+        width: fit-content;
+    }
+    .carousel-item{
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-item img {
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    label small {
+        font-size: 10px;
+    }
+
+    .berita label {
+        color: white;
+        width: 300px;
+        transform: translate(20px, 0);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    img.hot {
+        transform: translate(220px, -20px);
+    }
+
+    /* gallery */
+    .display-3{
+        font-size: 20px;
+    }
+
+
+
+}
